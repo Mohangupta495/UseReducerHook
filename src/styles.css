@@ -1,0 +1,43 @@
+* {
+  font-family: sans-serif;
+  margin: 0ch;
+  padding: 0ch;
+  box-sizing: border-box;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: gray;
+}
+.container {
+  /* background: chartreuse; */
+  text-align: center;
+  padding: 20px;
+  font-size: 80px;
+  color: gold;
+}
+.container button {
+  height: 40px;
+  width: 100px;
+  font-size: 18px;
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  border-radius: 20px 10px 20px 0;
+}
+.container .btnInc {
+  background-color: palegreen;
+  color: #000;
+}
+.container .btnDec {
+  background-color: red;
+  color: #fff;
+}
+h3 {
+  text-decoration: underline;
+  font-weight: 200;
+  color: #fff;
+}
